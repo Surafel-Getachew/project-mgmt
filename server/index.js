@@ -3,7 +3,6 @@ const colors = require('colors');
 const cors = require('cors');
 const { graphqlHTTP } = require('express-graphql');
 
-// const schema = require('./schema/schema');
 const schema = require("./schema/index")
 const connectDB = require('./config/db');
 
